@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Math Quiz!</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body class="body_bg">
+        <center>
+<h1> Lets Have A Math Quiz</h1>
+<h3> Who Will Win Player1 or Player2 ??</h3>
+<span class="player1" data-toggle="modal" data-target="#login1">
+    <p id="p1" class="btn btn-success">Player1</p>
+</span>
+    <div class="modal fade" id="login1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+        <h4 class="modal-title">Welcome To the Math Quiz</h4>
+                </div>
+                <div class="modal-body">
+        <input id="logininput1" type="text" placeholder="Player1 Username">
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <span class="player2" data-toggle="modal" data-target="#login2">
+            <p id="p2" class="btn btn-info">Player2</p>
+        </span>
+            <div class="modal fade" id="login2">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                <h4 class="modal-title">Welcome To the Math Quiz</h4>
+                        </div>
+                        <div class="modal-body">
+                <input id="logininput2" type="text" placeholder="Player2 Username">
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <button onclick= "login()">Login</button>
+            </center>
+    </body>
+</html>

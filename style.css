@@ -1,0 +1,17 @@
+.body_bg{
+ background-image: url("bg.jpg");
+}
+
+#p1, #p2{
+    margin-top: 250px;
+}
+
+#output{
+    background: black;
+    color: white;
+    border-radius: 10px;
+    border-top: 10px solid #2092a1;
+    padding: 10px;
+    float: none;
+    text-align: left;
+}
